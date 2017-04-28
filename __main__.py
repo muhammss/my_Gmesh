@@ -18,3 +18,10 @@ def main():
 @@click.argument('filenames', type=str, nargs=1)
 
 @main.command()
+@click.option('--zval', type=float)
+@click.option('--yval', type=float)
+@click.option('--xval', type=float)
+@click.option('--zmin', type=float)
+@click.option('--ymin', type=float)
+@click.option('--xmin', type=float)
+@click.option('
